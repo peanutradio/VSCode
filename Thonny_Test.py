@@ -1,0 +1,1 @@
+df['species_2'] = df['species'].apply(lambda x: iris.target_names[x])  
